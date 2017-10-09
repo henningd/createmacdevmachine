@@ -107,6 +107,8 @@ Eintrag für neue WEB-Site
 
     127.0.0.1 test1.dev
 
+## Apache neu starten
+    sudo apachectl graceful
 
 ## Resourcen
 
