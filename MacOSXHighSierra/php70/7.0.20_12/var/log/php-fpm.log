@@ -1,0 +1,94 @@
+[20-Jul-2017 14:54:14] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 14:54:14] ERROR: failed to post process the configuration
+[20-Jul-2017 14:54:14] ERROR: FPM initialization failed
+[20-Jul-2017 15:14:30] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 15:14:30] ERROR: failed to post process the configuration
+[20-Jul-2017 15:14:30] ERROR: FPM initialization failed
+[20-Jul-2017 15:18:08] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 15:18:08] ERROR: failed to post process the configuration
+[20-Jul-2017 15:18:08] ERROR: FPM initialization failed
+[20-Jul-2017 15:23:44] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 15:23:44] ERROR: failed to post process the configuration
+[20-Jul-2017 15:23:44] ERROR: FPM initialization failed
+[20-Jul-2017 15:28:40] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 15:28:40] ERROR: failed to post process the configuration
+[20-Jul-2017 15:28:40] ERROR: FPM initialization failed
+[20-Jul-2017 15:42:26] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 15:42:26] ERROR: failed to post process the configuration
+[20-Jul-2017 15:42:26] ERROR: FPM initialization failed
+[20-Jul-2017 16:28:57] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 16:28:57] ERROR: failed to post process the configuration
+[20-Jul-2017 16:28:57] ERROR: FPM initialization failed
+[20-Jul-2017 16:55:22] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[20-Jul-2017 16:55:22] ERROR: failed to post process the configuration
+[20-Jul-2017 16:55:22] ERROR: FPM initialization failed
+[24-Jul-2017 08:09:01] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[24-Jul-2017 08:09:01] ERROR: failed to post process the configuration
+[24-Jul-2017 08:09:01] ERROR: FPM initialization failed
+[25-Jul-2017 17:16:58] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[25-Jul-2017 17:16:58] ERROR: failed to post process the configuration
+[25-Jul-2017 17:16:58] ERROR: FPM initialization failed
+[28-Jul-2017 08:05:30] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[28-Jul-2017 08:05:30] ERROR: failed to post process the configuration
+[28-Jul-2017 08:05:30] ERROR: FPM initialization failed
+[31-Jul-2017 08:08:48] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[31-Jul-2017 08:08:48] ERROR: failed to post process the configuration
+[31-Jul-2017 08:08:48] ERROR: FPM initialization failed
+[07-Aug-2017 08:06:38] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[07-Aug-2017 08:06:38] ERROR: failed to post process the configuration
+[07-Aug-2017 08:06:38] ERROR: FPM initialization failed
+[07-Aug-2017 09:26:54] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[07-Aug-2017 09:26:54] ERROR: failed to post process the configuration
+[07-Aug-2017 09:26:54] ERROR: FPM initialization failed
+[07-Aug-2017 09:34:18] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[07-Aug-2017 09:34:18] ERROR: failed to post process the configuration
+[07-Aug-2017 09:34:18] ERROR: FPM initialization failed
+[07-Aug-2017 09:44:59] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[07-Aug-2017 09:44:59] ERROR: failed to post process the configuration
+[07-Aug-2017 09:44:59] ERROR: FPM initialization failed
+[07-Aug-2017 10:07:19] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[07-Aug-2017 10:07:19] ERROR: failed to post process the configuration
+[07-Aug-2017 10:07:19] ERROR: FPM initialization failed
+[07-Aug-2017 10:11:49] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[07-Aug-2017 10:11:49] ERROR: failed to post process the configuration
+[07-Aug-2017 10:11:49] ERROR: FPM initialization failed
+[07-Aug-2017 10:23:01] ERROR: failed to open error_log (/usr/local/var/log/php-fpm.log): Permission denied (13)
+[07-Aug-2017 10:23:01] ERROR: failed to post process the configuration
+[07-Aug-2017 10:23:01] ERROR: FPM initialization failed
+[07-Aug-2017 11:05:49] ERROR: unable to bind listening socket for address '/Users/danielhenninger/.valet/valet.sock': No such file or directory (2)
+[07-Aug-2017 11:05:49] ERROR: FPM initialization failed
+[21-Aug-2017 09:27:28] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[21-Aug-2017 09:27:28] ERROR: FPM initialization failed
+[24-Aug-2017 16:07:44] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[24-Aug-2017 16:07:44] ERROR: FPM initialization failed
+[28-Aug-2017 08:25:49] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[28-Aug-2017 08:25:49] ERROR: FPM initialization failed
+[08-Sep-2017 18:00:13] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[08-Sep-2017 18:00:13] ERROR: FPM initialization failed
+[18-Sep-2017 08:04:49] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[18-Sep-2017 08:04:49] ERROR: FPM initialization failed
+[21-Sep-2017 12:59:58] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[21-Sep-2017 12:59:58] ERROR: FPM initialization failed
+[28-Sep-2017 10:30:10] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[28-Sep-2017 10:30:10] ERROR: FPM initialization failed
+[29-Sep-2017 12:05:43] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[29-Sep-2017 12:05:43] ERROR: FPM initialization failed
+[29-Sep-2017 12:12:20] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[29-Sep-2017 12:12:20] ERROR: FPM initialization failed
+[29-Sep-2017 19:13:21] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[29-Sep-2017 19:13:21] ERROR: FPM initialization failed
+[02-Oct-2017 07:23:01] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[02-Oct-2017 07:23:01] ERROR: FPM initialization failed
+[02-Oct-2017 08:16:48] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[02-Oct-2017 08:16:48] ERROR: FPM initialization failed
+[04-Oct-2017 07:55:16] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[04-Oct-2017 07:55:16] ERROR: FPM initialization failed
+dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/opt/php70/sbin/php-fpm
+  Reason: image not found
+dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/opt/php70/sbin/php-fpm
+  Reason: image not found
+dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/opt/php70/sbin/php-fpm
+  Reason: image not found

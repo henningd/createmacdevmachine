@@ -1,0 +1,21 @@
+[07-Aug-2017 14:05:24] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[07-Aug-2017 14:05:24] ERROR: FPM initialization failed
+[14-Aug-2017 08:08:04] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[14-Aug-2017 08:08:04] ERROR: FPM initialization failed
+[15-Aug-2017 11:58:42] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[15-Aug-2017 11:58:42] ERROR: FPM initialization failed
+[29-Aug-2017 08:15:21] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[29-Aug-2017 08:15:21] ERROR: FPM initialization failed
+[21-Sep-2017 13:02:17] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[21-Sep-2017 13:02:17] ERROR: FPM initialization failed
+[01-Oct-2017 08:51:16] ERROR: An another FPM instance seems to already listen on /Users/danielhenninger/.valet/valet.sock
+[01-Oct-2017 08:51:16] ERROR: FPM initialization failed
+dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/opt/php71/sbin/php-fpm
+  Reason: image not found
+dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/opt/php71/sbin/php-fpm
+  Reason: image not found
+dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/opt/php71/sbin/php-fpm
+  Reason: image not found
