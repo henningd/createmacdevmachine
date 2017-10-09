@@ -2,6 +2,13 @@
 
 High Sierra bringt Apache 2.4 und PHP 7.1 bereits mit.
 
+
+##### Projekt clonen
+
+    mkdir ~/code
+    cd ~/code
+    git clone https://github.com/henningd/createmacdevmachine.git
+
 ## PHP Extension anpassen
 
 Leider funktioniert das von High Sierra mit gelieferte ```xdebug``` nicht, da es nicht mit der Zend Enginge von PHP7 kompatiebel ist.
@@ -9,6 +16,15 @@ Leider funktioniert das von High Sierra mit gelieferte ```xdebug``` nicht, da es
 
     /usr/lib/php/extensions/no-debug-non-zts-20160303/xdebug.so
 
+Da High Sierra das Überschreiben von xdebug.so nicht zuläßt, legt man einfach ein separates Verzeichnis an, in das die neue xdebug.so kopiert wird.
+
+Die Datei ```xdebug.so``` kopieren
+
+    mkdir /usr/local/lib/php/extensions/71dh
+    cp /Users/danielhenninger/code/createmacdevmachine/MacOSXHighSierra/php71-xdebug/2.5.5/xdebug.so /usr/local/lib/php/extensions/71dh
+
+
+##### xdebug.so erzeugen, falls notwendig
 Um eine funktionierende Version von xdebug zu erzeugen, sind die folgenden Schritte notwendig:
 
     cd ~/code
@@ -21,18 +37,13 @@ Um eine funktionierende Version von xdebug zu erzeugen, sind die folgenden Schri
 
 Die neue Datei liegt nun in ```modules/xdebug.so```.
 
-Da High Sierra das Überschreiben von xdebug.so nicht zuläßt, legt man einfach ein separates Verzeichnis an, in das die neue xdebug.so kopiert wird.
-
-Die Datei xdebug.so kann aus dem Unterverzeichnis ```MacOSXHighSierra/php71-xdebug``` dieses Repositories kopiert werden.
-
-    mkdir /usr/local/lib/php/extensions/71dh
-
+## PHP.INI erstellen
 
 Im Verzeichnis /etc muss eine php.ini erstellt werden.
 
-Die Datei php.ini kann aus dem Unterverzeichnis ```MacOSXHighSierra/php71``` dieses Repositories kopiert werden.
+Datei kopieren
 
-    sudo touch /etc/php.ini
+    cp /Users/danielhenninger/code/createmacdevmachine/MacOSXHighSierra/php71/php.ini /etc
 
 Bei manieller Erstellung der php.ini sind die folgenden Einträge zu setzen
 
@@ -95,7 +106,7 @@ Dateiinhalt ```php7.conf```
 Eintrag für neue WEB-Site
 
     127.0.0.1 test1.dev
-    
+
 
 ## Resourcen
 
