@@ -16,26 +16,16 @@ Leider funktioniert das von High Sierra mit gelieferte ```xdebug``` nicht, da es
 
     /usr/lib/php/extensions/no-debug-non-zts-20160303/xdebug.so
 
-Da High Sierra das Überschreiben von xdebug.so nicht zuläßt, legt man einfach ein separates Verzeichnis an, in das die neue xdebug.so kopiert wird.
+Da High Sierra läßt das Überschreiben von xdebug.so nicht zu. Daher laden wir die SO-Dateien herunter und verlinken die benötigten Dateien anschließend.
 
-Die Datei ```xdebug.so``` kopieren
+## PHP 7.1 herunter laden und installieren
 
-    mkdir /usr/local/lib/php/extensions/71dh
-    cp /Users/danielhenninger/code/createmacdevmachine/MacOSXHighSierra/php71-xdebug/2.5.5/xdebug.so /usr/local/lib/php/extensions/71dh
+    curl -s http://php-osx.liip.ch/install.sh | bash -s 7.1
 
+Die SO-Dateien sind nun im folgenden Ordner gespeichert:
 
-##### xdebug.so erzeugen, falls notwendig
-Um eine funktionierende Version von xdebug zu erzeugen, sind die folgenden Schritte notwendig:
-
-    cd ~/code
-    git clone git://github.com/xdebug/xdebug.git
-    cd ~/code/xdebug
-    brew install autoconf
-    phpize
-    ./configure
-    make
-
-Die neue Datei liegt nun in ```modules/xdebug.so```.
+    /usr/local/php5-7.1.10-20171002-090111/lib/php/extensions/no-debug-non-zts-20160303/
+    
 
 ## PHP.INI erstellen
 
@@ -43,13 +33,14 @@ Im Verzeichnis /etc muss eine php.ini erstellt werden.
 
 Datei kopieren
 
-    cp /Users/danielhenninger/code/createmacdevmachine/MacOSXHighSierra/php71/php.ini /etc
+    sudo cp /Users/danielhenninger/code/createmacdevmachine/MacOSXHighSierra/php71/php.ini /etc
 
-Bei manieller Erstellung der php.ini sind die folgenden Einträge zu setzen
+Bei manueller Erstellung der php.ini sind die folgenden Einträge zu setzen
 
+    sudo atom /etc/php.ini
+    
     [xdebug]
-    ;zend_extension="/usr/lib/php/extensions/no-debug-non-zts-20160303/xdebug.so"
-    zend_extension="/usr/local/lib/php/extensions/71dh/xdebug.so"
+    zend_extension="/usr/local/php5-7.1.10-20171002-090111/lib/php/extensions/no-debug-non-zts-20160303/xdebug.so"
     xdebug.remote_enable=true
     xdebug.remote_host=localhost
     xdebug.remote_port=9000
