@@ -90,6 +90,17 @@ Dateiinhalt ```php7.conf```
 
     sudo atom /private/etc/apache2/extra/httpd-vhosts.conf
 
+    <VirtualHost *:80>
+    DocumentRoot "/Users/danielhenninger/code/test1/public/"
+    ServerName test1.dev
+    SetEnv APPLICATION_ENV development
+    <Directory /Users/danielhenninger/code/test1/public/>
+         DirectoryIndex index.php
+         AllowOverride All
+         Require all granted
+     </Directory>
+    </VirtualHost>
+
 ## HOSTS anpassen
 
     sudo atom /etc/hosts
